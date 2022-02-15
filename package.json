@@ -1,0 +1,20 @@
+{
+  "name": "cold-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "author": "Paratthakorn",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ganache": "ganache-cli -m \"candy maple cake sugar pudding cream honey rich smooth crumble sweet treat\"",
+    "test": "truffle test"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "web3": "^1.7.0"
+  }
+}
